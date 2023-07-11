@@ -4,3 +4,57 @@
     margin: 0;
 }
 
+header {
+    background-color: rgba(229, 84, 115, 0.10);
+
+}
+
+.banner {
+    display: flex;
+}
+
+.banner-section {
+    padding:230px 250px 120px 300px;
+
+
+}
+
+header {
+    background-image: url('../image/pngwing\ 10.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}
+
+.site-title {
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+    width: 680px;
+    height: 300px;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    width: 600px;
+    height: 80px;
+    padding: 10px;
+    text-align: left;
+   
+}
+
+.btn-primary {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+background: #E55473;
+display: inline-flex;
+padding: 20px 45px;
+align-items: flex-start;
+gap: 10px;
+border: 0;
+  
+}
