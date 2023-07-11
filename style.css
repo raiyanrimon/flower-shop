@@ -63,6 +63,7 @@ header {
     margin-top: 100px;
     padding: 50px 500px;
 
+
 }
 
 .primary-heading {
@@ -80,42 +81,36 @@ header {
     font-size: 15px;
     font-weight: 400;
 }
+/* hot sale starts */
+.hot-sale{
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+width: 100%;
+height: 500px;
+text-align: center;
+background-image: url('./image/pngwing\ 8.png');
+background-repeat: no-repeat;
+background-size: contain;
+background-position:right top;
+padding-top: 100px;
 
-.pic-div {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    padding: 10px 20px;
 }
-
-
-.pic-1 {
-    background-color: rgba(167, 33, 98, 0.15);
-    border-radius: 300px 300px 0px 0px;
-    background-position: center;
-
-}
-
-.pic-2 {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(5, 151, 160, 0.15);
-}
-
-.pic-3 {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
-}
-
-h5 {
+.hot-sale h3{
     color: #272727;
-    text-align: center;
+font-size: 40px;
+text-align: center;
+font-weight: 800;
+padding:60px 80px 24px 50px ;
 
-    font-size: 24px;
-
-    font-weight: 700;
-    line-height: 35px;
-    text-decoration-line: underline;
 }
+.hot-sale p{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px 500px;
+    text-align: center;
+}
+
 
 /* instagram section starts */
 .insta-title{
@@ -149,7 +144,7 @@ line-height: 30px;
 }
 
 .insta-image img {
-    width: 310px;
+    width: 300px;
     height: 320px;
 }
 
