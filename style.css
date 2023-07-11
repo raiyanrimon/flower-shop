@@ -85,14 +85,15 @@ header {
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding: 10px 20px;}
+    padding: 10px 20px;
+}
 
 
 .pic-1 {
     background-color: rgba(167, 33, 98, 0.15);
     border-radius: 300px 300px 0px 0px;
     background-position: center;
-   
+
 }
 
 .pic-2 {
@@ -104,38 +105,117 @@ header {
     border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
 }
-h5{color: #272727;
+
+h5 {
+    color: #272727;
     text-align: center;
 
     font-size: 24px;
-    
+
     font-weight: 700;
     line-height: 35px;
-    text-decoration-line: underline;}
-    img{
-        padding: 20px;
-    }
-    .footer{
-        background: #111010;
-        padding:200px 0px;
-    }
-.footer h2{
+    text-decoration-line: underline;
+}
+
+/* instagram section starts */
+.insta-title{
+    margin-top: 50px;
+    padding: 50px 500px;
+}
+
+
+.insta-title h3 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 15px;
+
+}
+.insta-des{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+
+}
+
+
+.insta-image {
+    display: flex;
+    margin: 50px 110px;
+    gap: 20px;
+}
+
+.insta-image img {
+    width: 310px;
+    height: 320px;
+}
+
+/* coupon section starts */
+.coupon {
+    border-radius: 8px;
+    background: url('./image/Rectangle\ 9.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: 50px 100px;
+    padding: 150px 150px;
+}
+
+.coupon h2 {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 30px;
+
+}
+
+.coupon p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 50px;
+}
+
+.input-email {
+    width: 70%;
+    height: 64px;
+}
+
+
+/* footer starts */
+.footer {
+    background: #111010;
+    padding: 200px 0px;
+}
+
+.footer h2 {
     text-align: center;
     color: #E55473;
-font-size: 48px;
-font-weight: 800;
+    font-size: 48px;
+    font-weight: 800;
 }
-.footer-shop{
+
+.footer-shop {
     color: #FFFFFF;
 }
-.footer-desc{color: rgba(255, 255, 255, 0.90);
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     padding: 10px 500px;
 }
-.end{color: rgba(255, 255, 255, 0.40);
+
+.end {
+    color: rgba(255, 255, 255, 0.40);
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    }
+}
