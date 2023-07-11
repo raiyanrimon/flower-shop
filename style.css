@@ -14,13 +14,13 @@ header {
 }
 
 .banner-section {
-    padding:230px 250px 120px 300px;
+    padding: 230px 250px 120px 300px;
 
 
 }
 
 header {
-    background-image: url('../image/pngwing\ 10.png');
+    background-image: url('./image/pngwing\ 10.png');
     background-repeat: no-repeat;
     background-position: bottom right;
 
@@ -41,8 +41,8 @@ header {
     width: 600px;
     height: 80px;
     padding: 10px;
-    
-   
+
+
 }
 
 .btn-primary {
@@ -50,19 +50,92 @@ header {
     font-size: 20px;
     font-weight: 700;
     border-radius: 8px;
-background: #E55473;
-display: inline-flex;
-padding: 20px 45px;
-align-items: flex-start;
-gap: 10px;
-border: 0;
-  
+    background: #E55473;
+    display: inline-flex;
+    padding: 20px 45px;
+    align-items: flex-start;
+    gap: 10px;
+    border: 0;
+
 }
-.primary-heading{
-    text-align: center;
+
+.main-div {
     margin-top: 100px;
-    padding-bottom: 20px;
+    padding: 50px 500px;
+
 }
-.main-div .banner-description{
+
+.primary-heading {
+    color: #272727;
     text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 10px;
+
 }
+
+.banner-des {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.pic-div {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 20px;}
+
+
+.pic-1 {
+    background-color: rgba(167, 33, 98, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    background-position: center;
+   
+}
+
+.pic-2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.pic-3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+h5{color: #272727;
+    text-align: center;
+
+    font-size: 24px;
+    
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;}
+    img{
+        padding: 20px;
+    }
+    .footer{
+        background: #111010;
+        padding:200px 0px;
+    }
+.footer h2{
+    text-align: center;
+    color: #E55473;
+font-size: 48px;
+font-weight: 800;
+}
+.footer-shop{
+    color: #FFFFFF;
+}
+.footer-desc{color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 500px;
+}
+.end{color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    }
